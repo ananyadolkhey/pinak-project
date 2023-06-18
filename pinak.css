@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: : #FFA41B;
+  box-sizing: border-box;
+
+}
+.row1 {
+  background-color: #FFA41B;
+  height: 1500px;
+  display: block;
+
+
+
+}
+.row2 {
+  background-color: #FFDEDE ;
+  height: 700px;
+  display: flex;
+  justify-content: flex-start;
+
+
+}
+.text_container {
+  color: #FAF0E4;
+  font-size: 38px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  height: 250px;
+}
+.smiley_container{
+
+  display: flex;
+
+  justify-content: space-around;
+}
+.face {
+  background-color: #fcba03;
+
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+.mouth {
+  position: relative;
+  background-color: black;
+  width: 115px;
+  height: 20px;
+  border-radius: 100%;
+  top: 210px;
+  left: 90px;
+  bottom: 10px;
+}
+.eye-section{
+  width: 175px;
+  height: 100px;
+  position: relative;
+  left: 60px;
+  top: 70px;
+}
+.left-eye,  .right-eye {
+  background-color: #4f2103;
+
+  width: 22px;
+  height: 35px;
+  border-radius: 50px;
+  position: absolute;
+  top: 20px;
+}
+.right-eye {
+  right: 20px;
+}
+.box1, .box2 {
+  height: 700px;
+  width: 490px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+
+}
+.side_box1 {
+  content: '';
+  position: relative;
+  top: -94%;
+  left: -15%;
+  width: 100%;
+  height: 90%;
+  background-color: #FFA41B;
+  -webkit-transform : rotate(45deg);
+          transform: rotate(45deg);
+          
+}
